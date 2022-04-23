@@ -8,3 +8,7 @@ Just clone the repository and add your `dm_cache.h`, `dm_cache.c`, `fa_cache.h`,
 Run the `make` command and it will properly compile and run the test (or give you errors as to why it couldn't compile).
 
 Have fun troubleshooting.
+
+## Note:
+
+Test 1 and Test 5 for SA cache will pass if your implementation is not fully finished yet. Consider them more debugging tools (when they're failing) than bulletproof evidence your implementation is working.
