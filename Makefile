@@ -3,8 +3,10 @@ CFLAGS=-c -Wall -Werror -g
 
 all: tests
 
-tests: sa_tests
+tests: sa_tests fa_tests dm_tests
 	./sa_tests
+	./fa_tests
+	./dm_tests
 
 dm_tests: dm_tests.o main_mem.o dm_cache.o main_mem_log.o
 	$(CC) -o dm_tests dm_tests.o main_mem.o dm_cache.o main_mem_log.o
